@@ -6,7 +6,7 @@ const inLimits = (num) => {
 }
 
 try {
-    const inputData = fs.readFileSync('../input.txt', 'utf8');
+    const inputData = fs.readFileSync('./input.txt', 'utf8');
     const entries = inputData.toString().split('\r\n');
 
     const t0 = performance.now();
